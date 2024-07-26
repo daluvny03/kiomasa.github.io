@@ -1,0 +1,76 @@
+<!--Nama = Ahmad Zidan Ardhana-->
+<!--NIM = 23.12.2750-->
+<!--Kelas = SI 01-->
+<!--Tanggal = 13-05-2024-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerjasama</title>
+    <link rel="stylesheet" href="kerjasama.css">
+</head>
+<body>
+    <header>
+        <h1>FORM KERJASAMA</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+        <ul>
+            <li><a href="kerjasama.html">Kerjasama</a></li>
+        </ul>
+    </nav>
+    <div>
+        <h2 style="font-family: sans-serif;">Formulir Penawaran Kerja Sama</h2>
+        <form action="index.html" method="post">
+            <label for="nama"></label>
+            <input type="text" name="nama" id="nama" placeholder="your username...">
+
+            <label for="alamat"></label>
+            <textarea name="alamat" id="alamat" cols="20" rows="1" placeholder="your addres..."></textarea>
+
+            <label for="wa"></label>
+            <input type="text" name="wa" id="wa" placeholder="your number...">
+
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="your email...">
+
+            <label for="tgl">Tanggal Pelaksanaan :</label>
+            <input type="datetime-local" name="tgl" id="tgl">
+            <br>
+
+            <label for="file">file penawaran :</label>
+            <input type="file" name="file" id="file">
+
+            <label for="domisili">domisili :</label>
+            <select name="domisili" >
+                <option value="Pilih">--Pilih Domisili--</option>
+                <option value="islam">magelang</option>
+                <option value="kristen">jogja</option>
+                <option value="katholik">pacitan</option>
+                <option value="hindu">semarang</option>
+                <option value="budha">surabaya</option>
+                <option value="konghucu">ngawi</option>
+                <option value="konghucu">sragentina</option>
+            </select>
+
+            <p>jenis kelamin : 
+                <input type="radio" name="jeniskelamin" id="laki-laki">laki-laki
+                <input type="radio" name="jeniskelamin" id="perempuan">perempuan
+            </p>
+
+            <p>bidang kerja sama : 
+            <input type="checkbox" name="bidang 1" value="multimedia">multimedia
+            <input type="checkbox" name="bidang 2" value="pemrograman">pemrograman
+            <input type="checkbox" name="bidang 3" value="fintech">fintech
+            </p>
+
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+
+        </form>
+    </div>
+</body>
+</html>

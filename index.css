@@ -1,0 +1,187 @@
+header{
+    width: 100%;
+    height: 100%;
+    background-color: #36323bde;
+    padding: 20px;
+    box-sizing: border-box;
+}
+header h1{
+    text-align: center;
+    color: rgb(243, 233, 208);
+    font-family: monospace;
+    cursor: default;
+}
+nav{
+    box-sizing: border-box;
+    background: #555555ad;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: start;
+    padding: 10px 30px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    align-items: center;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid rgb(235, 173, 16);
+    color: #edb83d;
+    
+}
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(92, 3, 76),rgb(1, 1, 74),rgba(0, 0, 0, 0.898),rgb(1, 1, 75),rgb(0, 0, 0));
+}
+.about{
+    cursor: default;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 600px;
+    color: white;
+    border: 2px solid transparent;
+}
+.about h2,.about h1,.about p{
+    margin-left: 10%;
+}
+.about h2{
+    margin-top: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about h1{
+    font-family: sans-serif;
+}
+.about p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.about p a{
+    color: white;
+    text-decoration: none;
+}
+.about .link:hover{
+    color: #edb83d;
+    border-bottom: 1px solid #edb83d96;
+}
+.about .image img{
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 65%;
+    top: 25%;
+    box-shadow:4px 4px 80px rgb(255, 255, 255);
+    border: 1px solid white;
+}
+.background ul{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    padding-top: 60px;
+    list-style: none;
+}
+.background li img{
+    filter: brightness(70%);
+    border-radius: 10px;
+}
+.background li{
+    background: rgba(134, 132, 132, 0.125);
+    margin: 0 20px;
+    border: none;
+    box-shadow: 0 0 3px white;
+    padding: 40px 40px;
+    border-radius: 15px;
+}
+.background p{
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.background{
+    cursor: default;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    color: white;
+}
+.background h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.skill{
+    cursor: default;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+.skill table{
+    border-collapse: separate;
+    border-spacing: 50px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skill th, .skill td{
+    padding: 30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.skill td{
+    font-size: 18px;
+    border-radius: 25px;
+    background-color: rgba(79, 79, 79, 0.238);
+    box-shadow: 0 0 3px rgb(163, 163, 163);
+}
+.skill th{
+    font-size: 30px;
+}
+.foto{
+    position: relative;
+    padding: 60px 60px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.foto h3{
+    cursor: default;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+.foto .image{
+    display: flex;
+}
+.image img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.video{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 40px 40px;
+}
+.video iframe{
+    margin-left: auto;
+    margin-right: auto;
+}
